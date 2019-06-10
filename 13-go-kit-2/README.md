@@ -194,7 +194,7 @@ The protobuf client stub code is located in `notificator/pkg/grpc/pb/notificator
 users/pkg/service/service.go:
 ```
 import (
-	"github.com/plutov/packagemain/13-go-kit-2/notificator/pkg/grpc/pb"
+	"github.com/JayB-K/packagemain/13-go-kit-2/notificator/pkg/grpc/pb"
 	"google.golang.org/grpc"
 )
 

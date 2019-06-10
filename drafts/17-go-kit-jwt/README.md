@@ -36,7 +36,7 @@ import (
 	"context"
 
 	"github.com/go-kit/kit/endpoint"
-	"github.com/plutov/packagemain/drafts/17-go-kit-jwt/service"
+	"github.com/JayB-K/packagemain/drafts/17-go-kit-jwt/service"
 )
 
 // Endpoints .
@@ -99,7 +99,7 @@ import (
 
 	gokitjwt "github.com/go-kit/kit/auth/jwt"
 	httptransport "github.com/go-kit/kit/transport/http"
-	"github.com/plutov/packagemain/drafts/17-go-kit-jwt/endpoints"
+	"github.com/JayB-K/packagemain/drafts/17-go-kit-jwt/endpoints"
 )
 
 // NewHTTPHandler .
@@ -141,9 +141,9 @@ import (
 
 	jwt "github.com/dgrijalva/jwt-go"
 	gokitjwt "github.com/go-kit/kit/auth/jwt"
-	"github.com/plutov/packagemain/drafts/17-go-kit-jwt/endpoints"
-	"github.com/plutov/packagemain/drafts/17-go-kit-jwt/http"
-	"github.com/plutov/packagemain/drafts/17-go-kit-jwt/service"
+	"github.com/JayB-K/packagemain/drafts/17-go-kit-jwt/endpoints"
+	"github.com/JayB-K/packagemain/drafts/17-go-kit-jwt/http"
+	"github.com/JayB-K/packagemain/drafts/17-go-kit-jwt/service"
 )
 
 func main() {

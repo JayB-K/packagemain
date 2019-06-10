@@ -8,9 +8,9 @@ import (
 
 	jwt "github.com/dgrijalva/jwt-go"
 	gokitjwt "github.com/go-kit/kit/auth/jwt"
-	"github.com/plutov/packagemain/drafts/17-go-kit-jwt/endpoints"
-	"github.com/plutov/packagemain/drafts/17-go-kit-jwt/http"
-	"github.com/plutov/packagemain/drafts/17-go-kit-jwt/service"
+	"github.com/JayB-K/packagemain/drafts/17-go-kit-jwt/endpoints"
+	"github.com/JayB-K/packagemain/drafts/17-go-kit-jwt/http"
+	"github.com/JayB-K/packagemain/drafts/17-go-kit-jwt/service"
 )
 
 func main() {

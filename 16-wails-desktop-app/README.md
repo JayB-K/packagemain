@@ -97,7 +97,7 @@ package main
 
 import (
 	"github.com/leaanthony/mewn"
-	"github.com/plutov/packagemain/cpustats/pkg/sys"
+	"github.com/JayB-K/packagemain/cpustats/pkg/sys"
 	"github.com/wailsapp/wails"
 )
 

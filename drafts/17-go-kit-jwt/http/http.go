@@ -8,7 +8,7 @@ import (
 
 	gokitjwt "github.com/go-kit/kit/auth/jwt"
 	httptransport "github.com/go-kit/kit/transport/http"
-	"github.com/plutov/packagemain/drafts/17-go-kit-jwt/endpoints"
+	"github.com/JayB-K/packagemain/drafts/17-go-kit-jwt/endpoints"
 )
 
 // NewHTTPHandler .

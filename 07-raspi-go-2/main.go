@@ -15,7 +15,7 @@ import (
 	speech "cloud.google.com/go/speech/apiv1"
 	"github.com/blackjack/webcam"
 	"github.com/machinebox/sdk-go/facebox"
-	htgotts "github.com/plutov/htgo-tts"
+	htgotts "github.com/JayB-K/htgo-tts"
 	"google.golang.org/api/option"
 	speechpb "google.golang.org/genproto/googleapis/cloud/speech/v1"
 )

@@ -9,7 +9,7 @@ We will use the code we've written last time.
 Google Translate API has an option to get audio from text. It's easy to implement this API call, and I already prepared a package for easier use.
 
 ```
-go get github.com/plutov/htgo-tts
+go get github.com/JayB-K/htgo-tts
 ```
 
 This package caches results, so when we need to have a speech of same text, it will just play a record. To play the audio file package uses `omxplayer` which is already installed on Raspberry Pi device:

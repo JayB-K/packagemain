@@ -9,7 +9,7 @@ services:
     - 8800:8081
     restart: always
     volumes:
-    - .:/go/src/github.com/plutov/packagemain/12-go-kit-1
+    - .:/go/src/github.com/JayB-K/packagemain/12-go-kit-1
   notificator:
     build:
       context: .
@@ -19,7 +19,7 @@ services:
     - 8801:8082
     restart: always
     volumes:
-    - .:/go/src/github.com/plutov/packagemain/12-go-kit-1
+    - .:/go/src/github.com/JayB-K/packagemain/12-go-kit-1
   users:
     build:
       context: .
@@ -29,4 +29,4 @@ services:
     - 8802:8081
     restart: always
     volumes:
-    - .:/go/src/github.com/plutov/packagemain/12-go-kit-1
+    - .:/go/src/github.com/JayB-K/packagemain/12-go-kit-1

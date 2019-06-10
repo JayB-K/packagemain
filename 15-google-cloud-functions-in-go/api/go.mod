@@ -1,4 +1,4 @@
-module github.com/plutov/packagemain/15-google-cloud-functions-in-go/api
+module github.com/JayB-K/packagemain/15-google-cloud-functions-in-go/api
 
 require (
 	cloud.google.com/go v0.34.0

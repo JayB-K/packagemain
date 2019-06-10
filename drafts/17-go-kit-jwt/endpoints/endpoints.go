@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/go-kit/kit/endpoint"
-	"github.com/plutov/packagemain/drafts/17-go-kit-jwt/service"
+	"github.com/JayB-K/packagemain/drafts/17-go-kit-jwt/service"
 )
 
 // Endpoints .

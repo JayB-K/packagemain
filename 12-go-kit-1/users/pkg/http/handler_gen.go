@@ -3,7 +3,7 @@ package http
 
 import (
 	http "github.com/go-kit/kit/transport/http"
-	endpoint "github.com/plutov/packagemain/12-go-kit-1/users/pkg/endpoint"
+	endpoint "github.com/JayB-K/packagemain/12-go-kit-1/users/pkg/endpoint"
 	http1 "net/http"
 )
 

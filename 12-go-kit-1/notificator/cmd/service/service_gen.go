@@ -9,8 +9,8 @@ import (
 	grpc "github.com/go-kit/kit/transport/grpc"
 	group "github.com/oklog/oklog/pkg/group"
 	opentracinggo "github.com/opentracing/opentracing-go"
-	endpoint "github.com/plutov/packagemain/12-go-kit-1/notificator/pkg/endpoint"
-	service "github.com/plutov/packagemain/12-go-kit-1/notificator/pkg/service"
+	endpoint "github.com/JayB-K/packagemain/12-go-kit-1/notificator/pkg/endpoint"
+	service "github.com/JayB-K/packagemain/12-go-kit-1/notificator/pkg/service"
 )
 
 func createService(endpoints endpoint.Endpoints) (g *group.Group) {

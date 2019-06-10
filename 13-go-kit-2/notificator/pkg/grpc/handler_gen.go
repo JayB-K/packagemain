@@ -3,8 +3,8 @@ package grpc
 
 import (
 	grpc "github.com/go-kit/kit/transport/grpc"
-	endpoint "github.com/plutov/packagemain/13-go-kit-2/notificator/pkg/endpoint"
-	pb "github.com/plutov/packagemain/13-go-kit-2/notificator/pkg/grpc/pb"
+	endpoint "github.com/JayB-K/packagemain/13-go-kit-2/notificator/pkg/endpoint"
+	pb "github.com/JayB-K/packagemain/13-go-kit-2/notificator/pkg/grpc/pb"
 )
 
 // NewGRPCServer makes a set of endpoints available as a gRPC AddServer

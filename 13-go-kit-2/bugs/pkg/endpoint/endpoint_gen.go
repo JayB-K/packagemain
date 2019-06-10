@@ -3,7 +3,7 @@ package endpoint
 
 import (
 	endpoint "github.com/go-kit/kit/endpoint"
-	service "github.com/plutov/packagemain/13-go-kit-2/bugs/pkg/service"
+	service "github.com/JayB-K/packagemain/13-go-kit-2/bugs/pkg/service"
 )
 
 // Endpoints collects all of the endpoints that compose a profile service. It's

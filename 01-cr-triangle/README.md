@@ -6,10 +6,10 @@
  - `gofmt` all files
  - We will focus on `cmd` Go code, not all package as it's big and has a lot of image processing, which I personally don't enjojy.
  - As of Go 1.5, the default value of GOMAXPROCS is the number of CPUs, so we can remove init() func. Verify using Printf.
- - Let's test with `gopher/jpg`: `go run cmd/triangle/main.go --in ~/go/src/github.com/plutov/packagemain/02-cr-triangle/gopher.jpg --out gopher.jpg`
+ - Let's test with `gopher/jpg`: `go run cmd/triangle/main.go --in ~/go/src/github.com/JayB-K/packagemain/02-cr-triangle/gopher.jpg --out gopher.jpg`
 - Fix `Saved as`: `output.Name()`
  - Test --in file and --out as dir, invalid memory address or nil pointer dereference. Replace to `file.Name()`
- - Test `go run cmd/triangle/main.go --in ~/go/src/github.com/plutov/packagemain/02-cr-triangle --out gopher`. Rename `dir` to `dir := strings.TrimRight(*source, "/")`
+ - Test `go run cmd/triangle/main.go --in ~/go/src/github.com/JayB-K/packagemain/02-cr-triangle --out gopher`. Rename `dir` to `dir := strings.TrimRight(*source, "/")`
 - Add more description to Fatal(). Use `Fatalf`.
  - Remove `ch` as it's not necessary.
  - Remove `item` type as not used.
